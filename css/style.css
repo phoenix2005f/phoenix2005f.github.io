@@ -1,0 +1,171 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #333;
+  background-color: #e8e1d5;
+  font-family: "Helvetica Neue", "Noto Sans", "Segoe UI", "Noto Sans CJK TC", "sourcesanspro", "微軟正黑體", Arial, sans-serif;
+  font-weight: lighter;
+}
+
+#particles-js {
+  position: absolute;
+  width: 99%;
+  height: 99%;
+}
+
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  margin: 20px;
+  max-width: 460px;
+  background: #eee;
+  border-radius: 0.5rem;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.avatar {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-image: url("/avatar.png");
+  background-size: cover;
+}
+
+.shine {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.name {
+  color: grey;
+  display: inline-block;
+}
+
+.addr, .job_title {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.cardMid {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  margin: 30px;
+}
+
+.cardButtom {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 30px 40px;
+}
+
+.rel_link {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-container {
+  margin: 5px;
+  float: left;
+}
+
+.parent {
+  position: relative;
+  width: 109px;
+  height: 109px;
+}
+
+.wrapper {
+  width: 109px;
+  height: 109px;
+  position: absolute;
+  background-color: #fffadd;
+  overflow: hidden;
+  cursor: pointer;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 375ms, width 275ms 100ms, height 375ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  margin: auto;
+  background-color: #fffadd;
+  position: absolute;
+  left: -9999px;
+  right: -9999px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+
+.open {
+  background-color: #fffadd;
+  width: 500px;
+  height: 500px;
+}
+
+.text .title {
+  height: 30px;
+  background: #ddd;
+}
+
+.text {
+  padding-left: 5px;
+  text-align: left;
+  margin: 5px;
+}
+
+.title {
+  width: 100%;
+}
+
+.subtitle {
+  margin-top: 5px;
+  width: 100%;
+  height: 90%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 0;
+}
+.buttons li {
+  display: inline-block;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.35rem;
+  color: #ffa800;
+  border-radius: 0.3rem;
+  border: 2px solid #ffa800;
+  padding: 8px 15px;
+  transition: all 0.3s ease-out;
+}
+.btn:hover {
+  color: #FFF;
+  background-color: #ffa800;
+}
