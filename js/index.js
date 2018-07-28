@@ -1,4 +1,4 @@
-particlesJS.load('particles-js', 'https://raw.githubusercontent.com/phoenix2005f/phoenix2005f.github.io/master/particlesjs-config.json');
+particlesJS.load('particles-js', './particlesjs-config.json');
 
 
 var container = $('.name');
